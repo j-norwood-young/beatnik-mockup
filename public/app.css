@@ -44,18 +44,18 @@ p {
   margin-bottom: 50px;
   overflow: hidden;
   background-attachment: fixed;
-  background-image: url("/images/top.jpg");
+  background-image: url("images/top.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 /* line 52, app/css/main.less */
 #topimg {
-  background-image: url("/images/top.jpg");
+  background-image: url("images/top.jpg");
 }
 /* line 56, app/css/main.less */
 #bottomimg {
-  background-image: url("/images/defoe.jpg");
+  background-image: url("images/defoe.jpg");
   height: 100vh;
 }
 /* line 61, app/css/main.less */
