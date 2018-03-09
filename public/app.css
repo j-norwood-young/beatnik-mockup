@@ -1,0 +1,167 @@
+/* line 1, app/css/main.less */
+body {
+  background-color: white;
+  margin: 0px;
+}
+/* line 6, app/css/main.less */
+.container {
+  width: 100vw;
+  padding-top: 60px;
+  overflow-x: hidden;
+}
+/* line 12, app/css/main.less */
+p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14pt;
+}
+/* line 17, app/css/main.less */
+#header {
+  width: 100%;
+  box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.1);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #f7f7f7;
+  z-index: 100;
+}
+/* line 27, app/css/main.less */
+#header #header-container {
+  max-width: 1024px;
+  margin: 0px auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* line 35, app/css/main.less */
+#header #header-container img {
+  max-height: 40px;
+}
+/* line 41, app/css/main.less */
+.parallax {
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-image: url("/images/top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 52, app/css/main.less */
+#topimg {
+  background-image: url("/images/top.jpg");
+}
+/* line 56, app/css/main.less */
+#bottomimg {
+  background-image: url("/images/defoe.jpg");
+  height: 100vh;
+}
+/* line 61, app/css/main.less */
+#video {
+  width: 100%;
+  height: auto;
+}
+/* line 66, app/css/main.less */
+.body-text {
+  max-width: 600px;
+  margin: 0px auto;
+}
+/* line 70, app/css/main.less */
+.body-text img {
+  max-width: 100%;
+}
+/* line 76, app/css/main.less */
+.full-width img {
+  max-width: 100%;
+}
+/* line 81, app/css/main.less */
+.drop-cap {
+  font-family: 'Playfair Display', serif;
+  float: left;
+  line-height: 48px;
+  font-size: 55px;
+  margin-top: -3px;
+  margin-right: 3px;
+}
+/* line 90, app/css/main.less */
+.headline {
+  font-size: 42pt;
+  text-align: center;
+  margin: 0px 20px;
+  font-weight: 600;
+  line-height: 55pt;
+  width: 100%;
+}
+/* line 99, app/css/main.less */
+.headline,
+.pull-quote {
+  font-family: 'Rock Salt', cursive;
+}
+/* line 104, app/css/main.less */
+.pull-quote {
+  width: 200px;
+  font-size: 25px;
+  line-height: 32px;
+}
+/* line 110, app/css/main.less */
+.pull-quote-right {
+  float: right;
+  margin-right: -80px;
+  margin-left: 20px;
+}
+/* line 116, app/css/main.less */
+.pull-quote-left {
+  float: left;
+  margin-left: -80px;
+  margin-right: 20px;
+}
+/* line 122, app/css/main.less */
+footer {
+  margin: 20px;
+  text-align: center;
+}
+/* line 123, app/css/main.less */
+footer p {
+  font-size: 12pt;
+}
+@media screen and (max-width: 736px) {
+  /* line 133, app/css/main.less */
+  .pull-quote-right,
+  .pull-quote-left {
+    float: none;
+    width: 100%;
+    margin: 20px 0px;
+    clear: both;
+    text-align: center;
+  }
+  /* line 141, app/css/main.less */
+  .body-text {
+    margin: 0px 20px;
+    max-width: none;
+    display: block;
+  }
+  /* line 148, app/css/main.less */
+  #bottomimg {
+    background-size: 100%;
+    background-position-y: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 157, app/css/main.less */
+  #video {
+    height: auto;
+  }
+  /* line 161, app/css/main.less */
+  .parallax,
+  #topimg,
+  #bottomimg {
+    height: 70vh;
+    background-size: 100%;
+    background-color: #0e0e0e;
+  }
+}
+
+
+/*# sourceMappingURL=app.css.map*/
