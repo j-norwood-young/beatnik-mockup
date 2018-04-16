@@ -126,8 +126,13 @@ footer {
 footer p {
   font-size: 12pt;
 }
+/* line 131, app/css/main.less */
+#topimg {
+  margin-left: -100vw;
+  background-color: #000;
+}
 @media screen and (max-width: 736px) {
-  /* line 133, app/css/main.less */
+  /* line 138, app/css/main.less */
   .pull-quote-right,
   .pull-quote-left {
     float: none;
@@ -136,24 +141,24 @@ footer p {
     clear: both;
     text-align: center;
   }
-  /* line 141, app/css/main.less */
+  /* line 146, app/css/main.less */
   .body-text {
     margin: 0px 20px;
     max-width: none;
     display: block;
   }
-  /* line 148, app/css/main.less */
+  /* line 153, app/css/main.less */
   #bottomimg {
     background-size: 100%;
     background-position-y: 50px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 157, app/css/main.less */
+  /* line 162, app/css/main.less */
   #video {
     height: auto;
   }
-  /* line 161, app/css/main.less */
+  /* line 166, app/css/main.less */
   .parallax,
   #topimg,
   #bottomimg {
